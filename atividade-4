@@ -1,0 +1,15 @@
+#include <stdio.h> //inclui a biblioteca de entrada e saída padrão
+
+int main() { //início da função principal
+
+float num1, num2, num3, media; //declaração de quatro variáveis do tipo float para armazenar os números e a média
+
+printf("Digite tres numeros: "); //imprime na tela a mensagem para o usuário digitar os três números
+scanf("%f %f %f", &num1, &num2, &num3); //lê os três números digitados pelo usuário e armazena nas variáveis 'num1', 'num2' e 'num3'
+
+media = (num1 + num2 + num3) / 3; //calcula a média aritmética dos três números e armazena na variável 'media'
+
+printf("A media aritmetica dos tres numeros eh: %.2f", media); //imprime na tela a média aritmética com duas casas decimais utilizando o especificador de formato "%.2f"
+
+return 0; //retorna 0 para finalizar a execução do programa
+}
