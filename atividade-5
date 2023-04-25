@@ -1,0 +1,14 @@
+#include <stdio.h> // biblioteca padrão de entrada e saída de dados em C
+
+int main() { // função principal do programa
+
+int num; // declaração da variável inteira num
+
+printf("Digite um numero inteiro: "); // mensagem ao usuário para inserir um número
+scanf("%d", &num); // leitura do número inteiro digitado pelo usuário e armazenado na variável num
+
+printf("Antecessor: %d\n", num-1); // exibição na tela do antecessor do número digitado
+printf("Sucessor: %d", num+1); // exibição na tela do sucessor do número digitado
+
+return 0; // fim da execução do programa
+}
