@@ -1,0 +1,15 @@
+#include <stdio.h>  // inclusão da biblioteca padrão de entrada e saída
+
+int main() {  // função principal do programa
+
+  float temp_celsius, temp_fahrenheit;  // declaração das variáveis
+
+  printf("Digite a temperatura em graus Celsius: ");  // mensagem para o usuário
+  scanf("%f", &temp_celsius);  // leitura da temperatura em Celsius
+
+  temp_fahrenheit = (temp_celsius * 9/5) + 32;  // cálculo da temperatura em Fahrenheit
+
+  printf("A temperatura em Fahrenheit eh: %.2f\n", temp_fahrenheit);  // exibição do resultado com duas casas decimais
+
+  return 0;  // retorno da função
+}
