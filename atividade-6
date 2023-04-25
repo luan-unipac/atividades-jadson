@@ -1,0 +1,15 @@
+#include <stdio.h>  // inclusao da biblioteca padrao de entrada e saida
+
+int main() {  // funcao principal do programa
+
+  float num_real;  // declaracao da variavel real
+
+  printf("Digite um numero real: ");  // mensagem para o usuario
+  scanf("%f", &num_real);  // leitura do numero real
+
+  int parte_inteira = (int) num_real;  // conversao para inteiro
+
+  printf("A parte inteira do numero eh: %d\n", parte_inteira);  // exibicao do resultado
+
+  return 0;  // retorno da funcao
+}
