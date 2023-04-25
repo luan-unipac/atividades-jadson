@@ -1,0 +1,19 @@
+#include <stdio.h>  // inclusao da biblioteca padrao de entrada e saeda
+
+int main() {  // funcao principal do programa
+
+  int num1, num2, soma;  // declaracao das variaveis inteiras
+
+  printf("Digite o primeiro numero: ");  // mensagem para o usuario
+  scanf("%d", &num1);  // leitura do primeiro numero
+
+  printf("Digite o segundo numero: ");  // mensagem para o usuario
+  scanf("%d", &num2);  // leitura do segundo numero
+
+  soma = num1 + num2;  // calculo da soma
+
+  printf("A soma e: %d\n", soma);  // exibicao do resultado
+
+  return 0;  // retorno da funcao
+}
+
