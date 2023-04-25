@@ -1,0 +1,17 @@
+#include <stdio.h>  // inclusao da biblioteca padrao de entrada e saida
+#define PI 3.14159  // definicao da constante PI
+
+int main() {  // funcao principal do programa
+
+  float raio, area;  // declaracao das variaveis de ponto flutuante
+
+  printf("Digite o raio do circulo: ");  // mensagem para o usuario
+  scanf("%f", &raio);  // leitura do raio
+
+  area = PI * raio * raio;  // calculo da area
+
+  printf("A area do circulo e: %.2f\n", area);  // exibicao do resultado
+
+  return 0;  // retorno da funcao
+}
+
