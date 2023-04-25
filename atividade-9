@@ -1,0 +1,17 @@
+#include <stdio.h>  // inclusão da biblioteca padrão de entrada e saída
+
+int main() {  // função principal do programa
+
+  int num, i;  // declaração das variáveis
+
+  printf("Digite um numero inteiro: ");  // mensagem para o usuário
+  scanf("%d", &num);  // leitura do número
+
+  printf("Tabuada do %d:\n", num);  // cabeçalho da tabuada
+
+  for (i = 1; i <= 10; i++) {  // loop para imprimir a tabuada
+    printf("%d x %d = %d\n", num, i, num * i);  // exibição da multiplicação e do resultado
+  }
+
+  return 0;  // retorno da função
+}
